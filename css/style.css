@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100vh;
+}
+
+.container .choice {
+  text-align: center;
+}
+
+.container .choice .icons {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 16px;
+}
+
+.container .choice .icons img {
+  width: 5rem;
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+}
+
+.container .choice .icons img:hover {
+  opacity: 0;
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+}
+
+.container .choice .generate {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.container .choice .generate:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.red {
+  border: 2px solid red;
+}
+/*# sourceMappingURL=style.css.map */
